@@ -1,16 +1,14 @@
-Contribuitori:
+Here's the translation:
 
-  -Lem-Rau Dumitru
-  
-  -Petcu Mircea
-  
-  Proiectul consta in sincronizare sistemului local de fisiere cu contul de dropbox. O data ce un fisier/director din sistemul local de fisiere este sincronizat cu
-contul de dropbox, toate actiunile valabile in mediul dbxcli vor fi efectuate si pe sistemul local. In plus, toate comenzile ce nu se regasesc in dropbox, dar se pot 
-folosi in mediul Linux, vor efectuate atunci cand se apeleaza. Avantajul principal al proiectului este ca se poate incarca un director in dropbox cu tot cu 
-continutul de pe primul nivel al acestuia. Fisierele/Directoarele nesincronizate cu dropbox vor putea fi in continuare operate, cu ajutorul comenzilor Linux, pe 
-sistemul local.
+---
 
-  Pentru rularea acestui proiect va fi nevoie de crearea unui cont de dropbox (https://www.dropbox.com/home) si instalarea fisierului dbxcli specific sistemului personal de calcul din sursa:
-https://github.com/dropbox/dbxcli/releases.
+**Contributors:**
 
-  Se va genera un token cu care se va putea conecta sistemul local de fisiere cu mediul dropbox.
+- Lem-Rau Dumitru
+- Petcu Mircea
+
+The project involves synchronizing the local file system with a Dropbox account. Once a file/directory from the local file system is synchronized with the Dropbox account, all valid actions in the dbxcli environment will also be performed on the local system. Additionally, all commands not found in Dropbox but usable in the Linux environment will be executed when called. The main advantage of the project is that a directory can be uploaded to Dropbox along with all its first-level content. Files/directories not synchronized with Dropbox can still be operated on using Linux commands on the local system.
+
+To run this project, you will need to create a Dropbox account (https://www.dropbox.com/home) and install the dbxcli file specific to your personal computing system from the source: https://github.com/dropbox/dbxcli/releases.
+
+A token will be generated to connect the local file system with the Dropbox environment.
